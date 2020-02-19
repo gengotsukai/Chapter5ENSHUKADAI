@@ -4,18 +4,16 @@
   box-sizing: border-box;
   color: #6c6b6b;
 }
-a {
-  text-decoration: none;
-}
- 
+
 .clearfix::after {
   content:"";
   display:block;
   clear:both;
 }
+
 header {
   width: 90%;
-  padding: 15px 0;
+  padding: 20px 0;
   margin: 0 auto;
   text-align: center;
 }
@@ -23,15 +21,27 @@ header {
 header .headline {
   font-size: 32px;
 }
+
+nav {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
 .nav-list {
   text-align: center;
-  padding: 10px 0;
+  padding: 15px 0;
   margin: 0 auto;
 }
+
 .nav-list-item {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+}
+
+.main {
+  width: 800px;
+  margin: 50px auto;
 }
 
 .box1{
@@ -125,6 +135,7 @@ footer {
   padding: 50px 0;
   background-color: #848282;
 }
+
 .footer-text {
   color: #fff;
 }
